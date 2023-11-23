@@ -1,25 +1,97 @@
 body {
-  background-color: #fffdfd;
-  font-family: sans-serif;
+    background-color: #fffdfd;
+    font-family: sans-serif;
 }
 
 header {
-  background-color: #ffffff;
-  color: #ffffff;
-  padding: 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 20px;
 }
 
 h1 {
-  font-size: 36px;
-  text-align: center;
+    font-size: 36px;
+    text-align: center;
 }
 
 nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  color: #ffffff;
-  padding: 20px;
-  text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: right;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #2196f3;
+    color: #ffffff;
+}
+
+#recent-websites {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #recent-websites h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #recent-websites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #recent-websites ul li {
+    margin-bottom: 10px;
+  }
+  
+  #recent-websites ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #recent-websites ul li.YT a:hover {
+    color: blue;
+  }
+  #recent-websites ul li.FB a:hover {
+    color: #f00;
+  }
+  #recent-websites ul li.WK a:hover {
+    color: yellow;
+  }
+  
