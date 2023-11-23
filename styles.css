@@ -13,3 +13,13 @@ h1 {
   font-size: 36px;
   text-align: center;
 }
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  padding: 20px;
+  text-align: right;
+}
+
