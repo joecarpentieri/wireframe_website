@@ -1,11 +1,8 @@
 body {
-    background-color: #fffdfd;
     font-family: sans-serif;
 }
 
 header {
-    background-color: #ffffff;
-    color: #ffffff;
     padding: 20px;
 }
 
@@ -18,13 +15,12 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    color: #ffffff;
+    color: #000000;
     padding: 20px;
     text-align: right;
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
     margin: 10px;
 }
@@ -35,6 +31,8 @@ section {
 
 form {
     display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 
 input[type="search"] {
@@ -64,16 +62,21 @@ button {
     padding: 20px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
+
   }
   
   #recent-websites h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
   }
   
   #recent-websites ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
   
   #recent-websites ul li {
